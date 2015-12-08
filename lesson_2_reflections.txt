@@ -5,4 +5,21 @@ Q2. How is the staging area different from the working directory and the reposit
 A2: Staging area is the place where you add files to be committed
     Working directory is the place where untracted files are
     
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+A3: running the command: git diff --staged 
 
+Q4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A4: To experiment the code with additional features. To translate codes in other languages. To mearge experimental codes into master code and so on. Branching would help achieve abovementions features without fear of changing the original bug free codes.  
+
+Q5. How do the diagrams help you visualize the branch structure?
+A5: Histroy diagrams shows us how the branchse are created (which branches have which commits), which also tells if there are any unchachable commits in the brach structure. 
+
+Q6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A6: Get a new master commit which can access all the commits created by both branches. Representing the branhes in a diagram gives us visualization of what branches we are going to merge.
+
+Q7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A7: automacic merge: pros- less overhead to check the codes manually
+                     cons - can lead to buggy codes 
+
+     manual merge: Pros: confident enough to safely merge two brances
+                   Cons: time consuming 
